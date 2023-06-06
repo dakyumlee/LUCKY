@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+    @keyframes my-animation {
+      20% {
+        opacity: 1;
+        transform: translateX(-300%);
+      }
+      100% {
+        opacity: 2;
+        transform: translateX(300);
+      }
+    }
+
+    body  {
+      font-family: 'Carter One', cursive;
+      background-color: #F2F2F2;
+      text-align: center;}
+
+      .wrap{
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        margin-top: 60px;
+      }
+
+      .wrap .tooltip  {
+        position: absolute;
+        width: 200px;
+        padding: 0;
+        visibility: hitten;
+        background-color: #65BF85;
+        color: #65BF85;
+        text-align: center;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-Left: -100px;
+      }
+
+    .fortuneMessages{
+      border-radius: 100%;
+      display: flex;
+    }
+    
+    .heart{
+      display: flex;
+      padding: 3% 20% 0 20%;
+    }
+    
+    h1 {
+      color: #65BF85;
+    }
+    
+    p {
+      color: #65BF85;
+    }
+
+    .headoneone > p {
+      display: inline-block;
+      width: auto;
+      padding-left: 40px;
+      font-size: 14px;
+      line-height: 2em;
+      animation: my-animation 100s linear infinite;
+    }
+
+    .headonetwo > h1 {
+      display: inline-block;
+      margin-left: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .headonetwo > p {
+      display: inline-block;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #65BF85;
+    }
+
+    a {
+      text-decoration: none;
+      color: #65BF85;
+    }
+
+    .fortune {
+      text-align: center;
+    }
+
+    img {
+      text-align: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+    }
